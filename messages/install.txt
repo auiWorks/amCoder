@@ -16,5 +16,14 @@ Example settings
   "theme": "amCoder.sublime-theme"
 }
 
+Extra Color-Scheme
+------------------
+
+You would like this low-profile version of monokai if you think the original monokai is too shiny:
+
+{
+  "color_scheme": "Packages/Theme - amCoder/Monokai Low-Profile.tmTheme"
+}
+
 
 *Note: Don't forget to restart Sublime Text after activating the theme.*

@@ -42,3 +42,13 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
   "theme": "amCoder.sublime-theme"
 }
 ```
+
+#### Extra Color-Scheme
+
+You would like this low-profile version of monokai if you think the original monokai is too shiny:
+
+```
+{
+  "color_scheme": "Packages/Theme - amCoder/Monokai Low-Profile.tmTheme"
+}
+```
