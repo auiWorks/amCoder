@@ -1,0 +1,29 @@
+amCoder has been updated!
+
+
+What's New
+===============
+
+"Gray version" theme and color scheme has been added!
+
+Try it by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (⌘+, on Mac).
+
+*Note: Don't forget to restart Sublime Text after changing the theme.*
+
+
+Theme settings
+----------------
+
+{
+  "theme": "amCoder Gray.sublime-theme"
+}
+
+Color-Scheme settings
+------------------
+
+{
+  "color_scheme": "Packages/Theme - amCoder/Monokai Low-Profile Gray.tmTheme"
+}
+
+
+*Note: Don't forget to restart Sublime Text after changing the theme.*
