@@ -8,7 +8,7 @@
     {
         "class": "tabset_control",
         "layer0.texture": "",
-        "layer0.tint": [43, 43, 43], // -00
+        "layer0.tint": [46, 46, 46], // -00
         "layer0.inner_margin": 0,
         "layer0.opacity": 1,
         "content_margin": 0,
@@ -30,7 +30,7 @@
         "max_margin_trim": 0,
         "hit_test_level": 0,
         "layer0.texture": "",
-        "layer0.tint": [43, 43, 43], // -00
+        "layer0.tint": [46, 46, 46], // -00
         "layer0.inner_margin": [5,5],
         "layer0.opacity": 1
     },
@@ -50,7 +50,7 @@
         "class": "tab_control",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [34, 34, 34] // 00
+        "layer0.tint": [36, 36, 36] // 00
     },
     // Tab dirty state (close button hidden)
     {
@@ -238,7 +238,7 @@
         "class": "puck_control",
         "attributes": ["horizontal"],
         // "layer0.texture": "",
-        "layer0.tint": [43, 43, 43], // -00
+        "layer0.tint": [46, 46, 46], // -00
         "layer0.inner_margin": [0,0],
         "content_margin": [12,6],
         "blur": false
@@ -264,7 +264,7 @@
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
         // "layer0.texture": "",
-        "layer0.tint": [34, 34, 34], // 00
+        "layer0.tint": [36, 36, 36], // 00
         "layer0.inner_margin": [0,5],
         "layer0.opacity": 0,
         "blur": false
@@ -321,7 +321,7 @@
 
     {
         "class": "sheet_container_control",
-        "layer0.tint": [34, 34, 34], // 00
+        "layer0.tint": [36, 36, 36], // 00
         "layer0.opacity": 1
     },
 
@@ -332,7 +332,7 @@
     {
         "class": "grid_layout_control",
         "border_size": 1,
-        "border_color": [43, 43, 43] // -00
+        "border_color": [46, 46, 46] // -00
     },
 
 //
@@ -393,7 +393,7 @@
     {
         "class": "status_bar",
         "layer0.texture": "",
-        "layer0.tint": [43, 43, 43], // -00
+        "layer0.tint": [46, 46, 46], // -00
         "layer0.opacity": 1,
         "content_margin": 4
     },
@@ -435,7 +435,7 @@
     {
         "class": "tree_row",
         // "layer0.texture": "",
-        "layer0.tint": [43, 43, 43], // -00
+        "layer0.tint": [46, 46, 46], // -00
         "layer0.opacity": 0,
         "layer0.inner_margin": [1,1]
     },
@@ -626,7 +626,7 @@
         "min_size": [64,0],
         "layer0.texture": "",
         "layer0.opacity": 1,
-        "layer0.tint": [43, 43, 43], // -00
+        "layer0.tint": [46, 46, 46], // -00
         "layer0.inner_margin": [8,8]
     },
     // Hover button state
@@ -641,7 +641,7 @@
         "class": "button_control",
         "attributes": ["pressed"],
         "layer0.texture": "",
-        "layer0.tint": [43, 43, 43] // -00
+        "layer0.tint": [46, 46, 46] // -00
     },
 //
 // TEXT INPUT FIELD
@@ -651,7 +651,7 @@
     {
         "class": "text_line_control",
         "layer0.texture": "",
-        "layer0.tint": [39, 39, 39], // 01
+        "layer0.tint": [36, 36, 36], // 01
         "layer0.opacity": 1,
         "content_margin": 6
     },
@@ -666,7 +666,7 @@
         "layer0.texture": "",
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 1,
-        "layer0.tint": [43, 43, 43], // -00
+        "layer0.tint": [46, 46, 46], // -00
         "content_margin": 0
     },
     // Quick panel background
@@ -674,7 +674,7 @@
         "class": "overlay_control",
         "layer0.opacity": 1,
         "layer1.texture": "",
-        "layer1.tint": [43, 43, 43], // -00
+        "layer1.tint": [46, 46, 46], // -00
         "layer1.inner_margin": [0,0,0,0],
         "layer1.opacity": 1,
         "content_margin": 0
@@ -687,14 +687,14 @@
     {
         "class": "quick_panel",
         "row_padding": 8,
-        "layer0.tint": [43, 43, 43], // -00
+        "layer0.tint": [46, 46, 46], // -00
         "layer0.opacity": 1,
         "dark_content": true
     },
     {
         "class": "quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [43, 43, 43], // -00
+        "layer0.tint": [46, 46, 46], // -00
         "layer0.inner_margin": 8,
         "layer0.opacity": 1
     },
@@ -731,7 +731,7 @@
     {
         "class": "mini_quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [43, 43, 43], // -00
+        "layer0.tint": [46, 46, 46], // -00
         "layer0.opacity": 1
     },
     {
@@ -748,7 +748,7 @@
     {
         "class": "popup_control",
         "content_margin": [0,0],
-        "layer0.tint": [39, 39, 39], // 01
+        "layer0.tint": [36, 36, 36], // 01
         "layer0.opacity": 1
     },
     {
