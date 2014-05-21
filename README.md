@@ -10,7 +10,8 @@ Inherited from [Spacegray](https://github.com/kkga/spacegray).
 ![image](screenshots/amCoder.png)
 
 Gray version:
-![image](screenshots/amCoder Gray.png)
+
+![image](screenshots/amCoder-Gray.png)
 
 ***
 
