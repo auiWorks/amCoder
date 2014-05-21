@@ -16,6 +16,12 @@ Example settings
   "theme": "amCoder.sublime-theme"
 }
 
+Gray version:
+
+{
+  "theme": "amCoder Gray.sublime-theme"
+}
+
 Extra Color-Scheme
 ------------------
 
@@ -23,6 +29,12 @@ You would like this low-profile version of monokai if you think the original mon
 
 {
   "color_scheme": "Packages/Theme - amCoder/Monokai Low-Profile.tmTheme"
+}
+
+Gray version:
+
+{
+  "color_scheme": "Packages/Theme - amCoder/Monokai Low-Profile Gray.tmTheme"
 }
 
 
