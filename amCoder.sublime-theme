@@ -167,6 +167,56 @@
     },
 
 //
+// TAB SCROLLING
+//
+
+    // Tab dropdown
+    {
+        "class": "show_tabs_dropdown_button",
+        "content_margin": [8,8],
+        "layer0.texture": "Theme - amCoder/amCoder/tab-dropdown.png",
+        "layer0.inner_margin": [0,0],
+        "layer0.tint": [204, 204, 200], // 04
+        "layer0.opacity": 0.5
+    },
+    {
+        "class": "show_tabs_dropdown_button",
+        "attributes": ["hover"],
+        "layer0.texture": "Theme - amCoder/amCoder/tab-dropdown.png",
+        "layer0.opacity": 0.7
+    },
+    // Tab scroll left
+    {
+        "class": "scroll_tabs_left_button",
+        "content_margin": [8,8],
+        "layer0.texture": "Theme - amCoder/amCoder/tab-scroll-left.png",
+        "layer0.inner_margin": [0,0],
+        "layer0.tint": [204, 204, 200], // 04
+        "layer0.opacity": 0.5
+    },
+    {
+        "class": "scroll_tabs_left_button",
+        "attributes": ["hover"],
+        "layer0.texture": "Theme - amCoder/amCoder/tab-scroll-left.png",
+        "layer0.opacity": 0.7
+    },
+    // Tab scroll right
+    {
+        "class": "scroll_tabs_right_button",
+        "content_margin": [8,8],
+        "layer0.texture": "Theme - amCoder/amCoder/tab-scroll-right.png",
+        "layer0.inner_margin": [0,0],
+        "layer0.tint": [204, 204, 200], // 04
+        "layer0.opacity": 0.5
+    },
+    {
+        "class": "scroll_tabs_right_button",
+        "attributes": ["hover"],
+        "layer0.texture": "Theme - amCoder/amCoder/tab-scroll-right.png",
+        "layer0.opacity": 0.7
+    },
+
+//
 // FOLD BUTTONS
 //
 
