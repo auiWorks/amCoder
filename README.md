@@ -41,7 +41,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 #### Settings for amCoder
 
-```
+```javascript
 {
   "theme": "amCoder.sublime-theme"
 }
@@ -49,7 +49,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 Gray version:
 
-```
+```javascript
 {
   "theme": "amCoder Gray.sublime-theme"
 }
@@ -59,7 +59,7 @@ Gray version:
 
 You would like this low-profile version of monokai if you think the original monokai is too shiny:
 
-```
+```javascript
 {
   "color_scheme": "Packages/Theme - amCoder/Monokai Low-Profile.tmTheme"
 }
@@ -67,7 +67,7 @@ You would like this low-profile version of monokai if you think the original mon
 
 Gray version:
 
-```
+```javascript
 {
   "color_scheme": "Packages/Theme - amCoder/Monokai Low-Profile Gray.tmTheme"
 }
