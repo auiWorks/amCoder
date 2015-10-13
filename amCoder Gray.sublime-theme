@@ -287,7 +287,6 @@
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
-        // "layer0.texture": "",
         "layer0.tint": [46, 46, 46], // -00
         "layer0.inner_margin": [0, 0],
         "content_margin": [12, 6],
@@ -313,7 +312,6 @@
     {
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
-        // "layer0.texture": "",
         "layer0.tint": [36, 36, 36], // 00
         "layer0.inner_margin": [0, 5],
         "layer0.opacity": 0,
@@ -352,7 +350,6 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
-        // "layer0.texture": "",
         "layer0.tint": [71, 71, 71] // 02
 
     },
@@ -361,7 +358,6 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal", "dark"],
-        // "layer0.texture": "",
         "layer0.tint": [71, 71, 71] // 02
     },
 
@@ -423,7 +419,6 @@
     // Tooltip container
     {
         "class": "tool_tip_control",
-        // "layer0.texture": "",
         "layer0.tint": [71, 71, 71], // 02
         "layer0.inner_margin": [1, 1],
         "layer0.opacity": 1,
@@ -466,7 +461,6 @@
     // Sidebar container
     {
         "class": "sidebar_container",
-        // "layer0.texture": "",
         "layer0.opacity": 1,
         "layer0.tint": [28, 28, 28], // -01
         "layer0.inner_margin": [1, 5, 2, 1],
@@ -484,7 +478,6 @@
     // Sidebar rows
     {
         "class": "tree_row",
-        // "layer0.texture": "",
         "layer0.tint": [46, 46, 46], // -00
         "layer0.opacity": 0,
         "layer0.inner_margin": [1, 1]
@@ -832,7 +825,6 @@
     // Button group middle
     {
         "class": "icon_button_control",
-        // "layer1.texture": "",
         "layer1.opacity": 0,
         "content_margin": 7
     },
@@ -845,40 +837,33 @@
     {
         "class": "icon_button_control",
         "attributes": ["left"]
-        // "layer0.texture": ""
     },
     // Button group left
     {
         "class": "icon_button_control",
         "attributes": ["left"]
-        // "layer0.texture": ""
     },
     {
         "class": "icon_button_control",
         "attributes": ["left", "selected"]
-        // "layer0.texture": ""
     },
     // Button group right
     {
         "class": "icon_button_control",
         "attributes": ["right"]
-        // "layer0.texture": ""
     },
     {
         "class": "icon_button_control",
         "attributes": ["right", "selected"]
-        // "layer0.texture": ""
     },
     // Button single
     {
         "class": "icon_button_control",
         "attributes": ["left", "right"]
-        // "layer0.texture": ""
     },
     {
         "class": "icon_button_control",
         "attributes": ["left", "right", "selected"]
-        // "layer0.texture": ""
     },
 
 //
