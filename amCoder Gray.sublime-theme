@@ -583,9 +583,9 @@
     {
         "class": "close_button",
         "layer0.texture": "Theme - amCoder/amCoder/close.png",
+        "layer0.tint": [110, 110, 110], // light-2
         "layer0.opacity": 0,
         "layer0.inner_margin": 0,
-        "layer0.tint": [110, 110, 110], // light-2
         "content_margin": [8, 8]
     },
     {
@@ -603,25 +603,13 @@
         "class": "close_button",
         "attributes": ["dirty"],
         "layer0.texture": "Theme - amCoder/amCoder/circle.png",
-        "layer0.opacity": 1,
-        "layer0.tint": [230, 219, 116] // yellow
-    },
-    {
-        "class": "close_button",
-        "attributes": ["dirty"],
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - amCoder/amCoder/circle.png"
+        "layer0.tint": [230, 219, 116], // yellow
+        "layer0.opacity": 1
     },
     // Sidebar file close hover
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.tint": [233, 39, 114] // red
-    },
-    {
-        "class": "close_button",
-        "attributes": ["dirty", "hover"],
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
         "layer0.texture": "Theme - amCoder/amCoder/close.png",
         "layer0.tint": [233, 39, 114] // red
     },
@@ -648,23 +636,6 @@
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}]
     },
-    // Sidebar folder closed
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "layer0.texture": "Theme - amCoder/amCoder/folder-closed.png"
-    },
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}]
-    },
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - amCoder/amCoder/folder-closed.png"
-    },
     // Sidebar group open
     {
         "class": "disclosure_button_control",
@@ -682,26 +653,71 @@
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.texture": "Theme - amCoder/amCoder/folder-open.png"
     },
+    // Sidebar folder closed
+    {
+        "class": "icon_folder",
+        "layer0.texture": "Theme - amCoder/amCoder/folder-closed.png",
+        "layer0.opacity": 1,
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.texture": "Theme - amCoder/amCoder/folder-closed.png"
+    },
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - amCoder/amCoder/folder-closed.png"
+    },
     // Sidebar folder open
     {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "attributes": ["expanded"],
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
         "layer0.texture": "Theme - amCoder/amCoder/folder-open.png"
     },
     {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "attributes": ["expanded"],
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"]}],
         "layer0.texture": "Theme - amCoder/amCoder/folder-open.png"
     },
     {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "attributes": ["expanded"],
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row", "attributes": ["expanded", "selected"]}],
         "layer0.texture": "Theme - amCoder/amCoder/folder-open.png"
+    },
+    // Sidebar folder loading
+    {
+        "class": "icon_folder_loading",
+        "layer0.texture":
+        {
+            "keyframes":
+            [
+                "Theme - amCoder/amCoder/spinner/spinner12.png",
+                "Theme - amCoder/amCoder/spinner/spinner11.png",
+                "Theme - amCoder/amCoder/spinner/spinner10.png",
+                "Theme - amCoder/amCoder/spinner/spinner9.png",
+                "Theme - amCoder/amCoder/spinner/spinner8.png",
+                "Theme - amCoder/amCoder/spinner/spinner7.png",
+                "Theme - amCoder/amCoder/spinner/spinner6.png",
+                "Theme - amCoder/amCoder/spinner/spinner5.png",
+                "Theme - amCoder/amCoder/spinner/spinner4.png",
+                "Theme - amCoder/amCoder/spinner/spinner3.png",
+                "Theme - amCoder/amCoder/spinner/spinner2.png",
+                "Theme - amCoder/amCoder/spinner/spinner1.png"
+            ],
+            "loop": true,
+            "frame_time": 0.075,
+        },
+        "layer0.opacity": 1,
+        "content_margin": [8, 8]
+    },
+    // Sidebar file icons
+    {
+        "class": "icon_file_type",
+        // layer0.texture is filled in by code with the relevant icon name
+        "layer0.opacity": 1,
+        "content_margin": [8, 8]
     },
 
 //
