@@ -906,12 +906,8 @@
     {
         "class": "icon_button_control",
         "attributes": ["selected"],
-        "layer0.opacity": 0
-    },
-    // Button group left
-    {
-        "class": "icon_button_control",
-        "attributes": ["left"]
+        "layer0.tint": [28, 28, 28], // dark-1
+        "layer0.opacity": 1
     },
     // Button group left
     {
@@ -939,6 +935,19 @@
     {
         "class": "icon_button_control",
         "attributes": ["left", "right", "selected"]
+    },
+    // Panel close button
+    {
+        "class": "panel_close_button",
+        "content_margin": [0, 0]
+    },
+    {
+        "class": "panel_close_button",
+        "attributes": ["hover"]
+    },
+    {
+        "class": "panel_close_button",
+        "attributes": ["pressed"]
     },
 
 //
