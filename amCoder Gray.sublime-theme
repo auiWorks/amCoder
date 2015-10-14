@@ -403,6 +403,32 @@
     },
 
 //
+// DIALOG
+//
+
+    {
+        "class": "dialog",
+        "layer0.tint": [36, 36, 36], // dark-2
+        "layer0.opacity": 1
+    },
+
+//
+// PROGRESS BAR
+//
+
+    {
+        "class": "progress_bar_control",
+        "layer0.tint": [36, 36, 36], // dark-2
+        "layer0.opacity": 1
+    },
+    {
+        "class": "progress_gauge_control",
+        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.opacity": 1,
+        "content_margin": [0, 6]
+    },
+
+//
 // LABELS
 //
 
@@ -431,10 +457,10 @@
     // Tooltip container
     {
         "class": "tool_tip_control",
-        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.tint": [20, 20, 20], // dark-0
         "layer0.inner_margin": [1, 1],
         "layer0.opacity": 1,
-        "content_margin": [4, 4]
+        "content_margin": [8, 6]
     },
     // Tooltip content
     {
@@ -452,12 +478,13 @@
         "layer0.texture": "",
         "layer0.tint": [36, 36, 36], // dark-2
         "layer0.opacity": 1,
-        "content_margin": 4
+        "layer0.inner_margin": [2, 2],
+        "content_margin": [8, 4]
     },
     // Status bar button
     {
         "class": "status_button",
-        "min_size": [92, 0]
+        "min_size": [100, 0]
     },
     // Status bar label
     {
@@ -475,8 +502,8 @@
         "class": "sidebar_container",
         "layer0.opacity": 1,
         "layer0.tint": [20, 20, 20], // dark-0
-        "layer0.inner_margin": [1, 5, 2, 1],
-        "content_margin": [0, 4, 0, 0]
+        "layer0.inner_margin": [1, 1, 2, 1],
+        "content_margin": [0, 0, 0, 0]
     },
     // Sidebar tree
     {
@@ -503,19 +530,20 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [110, 110, 110], // light-2
+        "color": [200, 200, 200], // light-1
         "font.bold": true
     },
     // Sidebar heading selected
     {
         "class": "sidebar_heading",
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "shadow_offset": [0, 0]
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}]
     },
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [110, 110, 110] // light-2
+        "color": [110, 110, 110], // light-2
+        "font.bold": false,
+        "font.italic": false
     },
     // Sidebar folder entry
     {
@@ -539,6 +567,12 @@
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "color": [240, 240, 240] // light-0
+    },
+    // Sidebar entry transient
+    {
+        "class": "sidebar_label",
+        "attributes": ["transient"],
+        "font.italic": true
     },
 
 //
