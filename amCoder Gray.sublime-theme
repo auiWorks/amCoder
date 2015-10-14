@@ -278,7 +278,7 @@
         "layer0.tint": [36, 36, 36], // dark-2
         "layer0.opacity": 1,
         "layer0.inner_margin": [0, 0],
-        "content_margin": [6, 0],
+        "content_margin": [3, 12],
         "blur": false
     },
     // Standard horizontal scroll puck
@@ -287,7 +287,7 @@
         "attributes": ["horizontal"],
         "layer0.tint": [36, 36, 36], // dark-2
         "layer0.inner_margin": [0, 0],
-        "content_margin": [12, 6],
+        "content_margin": [12, 3],
         "blur": false
     },
 
@@ -313,7 +313,7 @@
         "layer0.tint": [28, 28, 28], // dark-1
         "layer0.inner_margin": [0, 5],
         "layer0.opacity": 0,
-        "blur": false
+        "blur": true
     },
     // Overlay horizontal scroll bar
     {
@@ -330,7 +330,7 @@
         "settings": ["overlay_scroll_bars"],
         "layer0.texture": "",
         "layer0.inner_margin": [0, 5],
-        "content_margin": [2, 32],
+        "content_margin": [2, 12],
         "blur": true
     },
     // Overlay horizontal puck
@@ -340,7 +340,7 @@
         "attributes": ["horizontal"],
         "layer0.texture": "",
         "layer0.inner_margin": [5, 0],
-        "content_margin": [16, 2],
+        "content_margin": [12, 2],
         "blur": true
     },
     // Overlay light puck (for dark content)
@@ -385,7 +385,21 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [255, 255, 255, 15]
+        "settings": ["always_show_minimap_viewport"],
+        "viewport_color": [255, 255, 255, 15],
+        "viewport_opacity": 1.0
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["!always_show_minimap_viewport"],
+        "viewport_color": [255, 255, 255, 15],
+        "viewport_opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "minimap_control",
+        "attributes": ["hover"],
+        "settings": ["!always_show_minimap_viewport"],
+        "viewport_opacity": 1.0
     },
 
 //
