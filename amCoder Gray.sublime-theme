@@ -707,7 +707,7 @@
                 "Theme - amCoder/amCoder/spinner/spinner1.png"
             ],
             "loop": true,
-            "frame_time": 0.075,
+            "frame_time": 0.075
         },
         "layer0.opacity": 1,
         "content_margin": [8, 8]
@@ -961,7 +961,6 @@
         "layer0.tint": [110, 110, 110], // light-2
         "layer0.opacity": 1,
         "content_margin": 8
-
     },
     {
         "class": "icon_regex",
@@ -1029,7 +1028,8 @@
 //
 // BOTTOM PANEL ICONS - GROUP 2
 //
-    // Reverse search direction button (ST2 only)
+
+    // Reverse search direction button
     {
         "class": "icon_reverse",
         "layer0.texture": "Theme - amCoder/amCoder/reverse.png",
@@ -1103,27 +1103,6 @@
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.tint": [240, 240, 240] // light-0
-    },
-
-//
-// FIX ICON BUG BY REMOVING THEM
-//
-
-    {
-        "class": "icon_file_type",
-        "content_margin": [0, 0],
-        "layer0.opacity": 0
-    },
-    {
-        "class": "icon_folder",
-        "layer0.texture": "",
-        "layer0.opacity": 0,
-        "content_margin": [0, 0]
-    },
-    {
-        "class": "icon_folder_loading",
-        "content_margin": [0, 0],
-        "layer0.opacity": 0
     }
 
 ]
