@@ -32,6 +32,11 @@
     },
     {
         "class": "tabset_control",
+        "settings": ["enable_tab_scrolling"],
+        "content_margin": 0
+    },
+    {
+        "class": "tabset_control",
         "settings": ["mouse_wheel_switches_tabs"],
         "mouse_wheel_switch": true
     },
@@ -69,7 +74,7 @@
         "class": "tab_control",
         "settings": ["!show_tab_close_buttons"],
         "attributes": ["dirty"],
-        "content_margin": [12, 3, 7, 3]
+        "content_margin": [8, 0]
     },
 
 //
@@ -79,31 +84,32 @@
     // Tab close button
     {
         "class": "tab_close_button",
+        "content_margin": [8, 8],
         "layer0.texture": "Theme - amCoder/amCoder/close.png",
+        "layer0.tint": [110, 110, 110], // light-2
         "layer0.opacity": 0,
-        "layer0.tint": [110, 110, 110] // light-2
+        "layer0.inner_margin": 0
     },
     {
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
-        "content_margin": [8, 8]
+        "layer0.opacity": 1
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - amCoder/amCoder/close.png",
+        "layer0.opacity": 1
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "layer0.opacity": 1
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control"}],
         "attributes": ["hover"],
-        "layer0.opacity": 1,
-        "layer0.tint": [233, 39, 114] // red
-    },
-    {
-        "class": "tab_close_button",
-        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "layer0.tint": [233, 39, 114], // red
         "layer0.opacity": 1
     },
     // Tab dirty button
@@ -111,14 +117,7 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "Theme - amCoder/amCoder/circle.png",
-        "layer0.tint": [230, 219, 116], // yellow
-        "layer0.opacity": 1
-    },
-    {
-        "class": "tab_close_button",
-        "settings": ["!show_tab_close_buttons"],
-        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "content_margin": [8, 8],
+        "layer0.tint": [110, 110, 110], // light-2
         "layer0.opacity": 1
     },
     {
@@ -129,33 +128,22 @@
         "layer0.tint": [233, 39, 114], // red
         "layer0.opacity": 1
     },
-    {
-        "class": "tab_close_button",
-        "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}]
-    },
     // Tab highlight button
     {
         "class": "tab_close_button",
         "settings": ["highlight_modified_tabs"],
-        "parents": [{"class": "tab_control", "attributes": ["dirty"]}]
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "layer0.tint": [230, 219, 116], // yellow
+        "layer0.opacity": 1
     },
     {
         "class": "tab_close_button",
         "settings": ["highlight_modified_tabs"],
-        "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}]
-    },
-    // Tab close button hover
-    {
-        "class": "tab_close_button",
-        "settings": ["show_tab_close_buttons"],
-        "attributes": ["hover"]
-    },
-    // Tab close button pressed
-    {
-        "class": "tab_close_button",
-        "settings": ["show_tab_close_buttons"],
-        "attributes": ["pressed"],
-        "layer0.opacity": 0.5
+        "parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
+        "layer0.texture": "Theme - amCoder/amCoder/close.png",
+        "attributes": ["hover"],
+        "layer0.tint": [233, 39, 114], // red
+        "layer0.opacity": 1
     },
 
 //
@@ -177,6 +165,11 @@
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "fg": [240, 240, 240] // light-0
     },
+    {
+        "class": "tab_label",
+        "attributes": ["transient"],
+        "font.italic": true
+    },
 
 //
 // TAB SCROLLING
@@ -187,45 +180,42 @@
         "class": "show_tabs_dropdown_button",
         "content_margin": [8, 8],
         "layer0.texture": "Theme - amCoder/amCoder/tab-dropdown.png",
-        "layer0.inner_margin": [0, 0],
-        "layer0.tint": [200, 200, 200], // light-1
-        "layer0.opacity": 0.5
+        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.inner_margin": 0,
+        "layer0.opacity": 1
     },
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - amCoder/amCoder/tab-dropdown.png",
-        "layer0.opacity": 0.7
+        "layer0.tint": [200, 200, 200] // light-1
     },
     // Tab scroll left
     {
         "class": "scroll_tabs_left_button",
         "content_margin": [8, 8],
         "layer0.texture": "Theme - amCoder/amCoder/tab-scroll-left.png",
-        "layer0.inner_margin": [0, 0],
-        "layer0.tint": [200, 200, 200], // light-1
-        "layer0.opacity": 0.5
+        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.inner_margin": 0,
+        "layer0.opacity": 1
     },
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - amCoder/amCoder/tab-scroll-left.png",
-        "layer0.opacity": 0.7
+        "layer0.tint": [200, 200, 200] // light-1
     },
     // Tab scroll right
     {
         "class": "scroll_tabs_right_button",
         "content_margin": [8, 8],
         "layer0.texture": "Theme - amCoder/amCoder/tab-scroll-right.png",
-        "layer0.inner_margin": [0, 0],
-        "layer0.tint": [200, 200, 200], // light-1
-        "layer0.opacity": 0.5
+        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.inner_margin": 0,
+        "layer0.opacity": 1
     },
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - amCoder/amCoder/tab-scroll-right.png",
-        "layer0.opacity": 0.7
+        "layer0.tint": [200, 200, 200] // light-1
     },
 
 //
@@ -235,24 +225,20 @@
     {
         "class": "fold_button_control",
         "layer0.texture": "Theme - amCoder/amCoder/folder-closed.png",
-        "layer0.tint": [200, 200, 200], // light-1
-        "layer0.opacity": 0.5,
+        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         "content_margin": [8, 8]
     },
     {
         "class": "fold_button_control",
         "attributes": ["hover"],
-        "layer0.opacity": 0.7
+        "layer0.tint": [200, 200, 200] // light-1
     },
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
         "layer0.texture": "Theme - amCoder/amCoder/folder-open.png"
-    },
-    {
-        "class": "fold_button_control",
-        "attributes": ["expanded", "hover"]
     },
 
 //
