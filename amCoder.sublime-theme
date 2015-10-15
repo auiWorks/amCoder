@@ -663,6 +663,7 @@
     {
         "class": "icon_file_type",
         // layer0.texture is filled in by code with the relevant icon name
+        "layer0.tint": [110, 110, 110], // light-2
         "layer0.opacity": 1,
         "content_margin": [8, 8]
     },
