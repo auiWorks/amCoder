@@ -19,8 +19,49 @@
                 <string>#6E6E6E</string>
                 <key>lineHighlight</key>
                 <string>#404040</string>
+
+                <key>bracketContentsForeground</key>
+                <string>#20B9E3</string>
+                <key>bracketContentsOptions</key>
+                <string>stippled_underline</string>
+                <key>bracketsForeground</key>
+                <string>#FF4A6D</string>
+                <key>bracketsOptions</key>
+                <string>stippled_underline</string>
+
+                <key>tagsForeground</key>
+                <string>#ff0000</string>
+                <key>tagsOptions</key>
+                <string>stippled_underline</string>
+
+                <key>findHighlight</key>
+                <string>#E3E084</string>
+                <key>findHighlightForeground</key>
+                <string>#1C1C1C</string>
+
+                <key>gutter</key>
+                <string>#1C1C1C</string>
+                <key>gutterForeground</key>
+                <string>#6E6E6E</string>
+
                 <key>selection</key>
                 <string>#404040</string>
+                <key>selectionBorder</key>
+                <string>#6E6E6E</string>
+                <key>inactiveSelection</key>
+                <string>#242424</string>
+
+                <key>guide</key>
+                <string>#404040</string>
+                <key>activeGuide</key>
+                <string>#6E6E6E</string>
+                <key>stackGuide</key>
+                <string>#404040</string>
+
+                <key>highlight</key>
+                <string>#E3E084</string>
+                <key>highlightForeground</key>
+                <string>#1C1C1C</string>
             </dict>
         </dict>
         <dict>
