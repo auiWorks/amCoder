@@ -5,24 +5,81 @@
 	<key>author</key>
 	<string>auiWorks</string>
 	<key>comment</key>
-	<string>amCoder Gray</string>
+	<string>A widget theme for the UI components of the amCoder Gray theme.</string>
 	<key>name</key>
-	<string>amCoder Gray</string>
+	<string>amCoder Gray - Widget Theme</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#242424</string>
+				<string>#1C1C1C</string>
 				<key>caret</key>
-				<string>#c8c8c8</string>
+				<string>#F0F0F0</string>
 				<key>foreground</key>
-				<string>#dfdfdf</string>
+				<string>#F0F0F0</string>
 				<key>invisibles</key>
-				<string>#696969</string>
+				<string>#6E6E6E</string>
+				<key>lineHighlight</key>
+				<string>#242424</string>
 				<key>selection</key>
-				<string>#515151</string>
+				<string>#6E6E6E</string>
+				<key>selectionBorder</key>
+				<string>#C8C8C800</string>
+				<key>inactiveSelection</key>
+				<string>#242424</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#505C63</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>keyword, storage</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A7DBD8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E0E4CC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E0E4CC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>constant.character.escape</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e9903c</string>
 			</dict>
 		</dict>
 	</array>
