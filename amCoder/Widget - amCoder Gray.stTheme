@@ -26,7 +26,7 @@
 				<key>selection</key>
 				<string>#6E6E6E</string>
 				<key>selectionBorder</key>
-				<string>#C8C8C800</string>
+				<string>#6E6E6E00</string>
 				<key>inactiveSelection</key>
 				<string>#242424</string>
 			</dict>
@@ -41,7 +41,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#505C63</string>
+				<string>#6E6E6E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -52,7 +52,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A7DBD8</string>
+				<string>#CCC47A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -61,7 +61,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E0E4CC</string>
+				<string>#9CCC3D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -70,7 +70,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E0E4CC</string>
+				<string>#F0F0F0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -79,7 +79,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e9903c</string>
+				<string>#C8C8C8</string>
 			</dict>
 		</dict>
 	</array>
