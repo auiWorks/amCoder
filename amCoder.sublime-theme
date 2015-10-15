@@ -653,64 +653,11 @@
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.texture": "Theme - amCoder/amCoder/folder-open.png"
     },
-    // Sidebar folder closed
+    // Hide sidebar folder
     {
         "class": "icon_folder",
-        "layer0.texture": "Theme - amCoder/amCoder/folder-closed.png",
-        "layer0.opacity": 1,
-        "content_margin": [8, 8]
-    },
-    {
-        "class": "icon_folder",
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - amCoder/amCoder/folder-closed.png"
-    },
-    {
-        "class": "icon_folder",
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - amCoder/amCoder/folder-closed.png"
-    },
-    // Sidebar folder open
-    {
-        "class": "icon_folder",
-        "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-        "layer0.texture": "Theme - amCoder/amCoder/folder-open.png"
-    },
-    {
-        "class": "icon_folder",
-        "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"]}],
-        "layer0.texture": "Theme - amCoder/amCoder/folder-open.png"
-    },
-    {
-        "class": "icon_folder",
-        "parents": [{"class": "tree_row", "attributes": ["expanded", "selected"]}],
-        "layer0.texture": "Theme - amCoder/amCoder/folder-open.png"
-    },
-    // Sidebar folder loading
-    {
-        "class": "icon_folder_loading",
-        "layer0.texture":
-        {
-            "keyframes":
-            [
-                "Theme - amCoder/amCoder/spinner/spinner12.png",
-                "Theme - amCoder/amCoder/spinner/spinner11.png",
-                "Theme - amCoder/amCoder/spinner/spinner10.png",
-                "Theme - amCoder/amCoder/spinner/spinner9.png",
-                "Theme - amCoder/amCoder/spinner/spinner8.png",
-                "Theme - amCoder/amCoder/spinner/spinner7.png",
-                "Theme - amCoder/amCoder/spinner/spinner6.png",
-                "Theme - amCoder/amCoder/spinner/spinner5.png",
-                "Theme - amCoder/amCoder/spinner/spinner4.png",
-                "Theme - amCoder/amCoder/spinner/spinner3.png",
-                "Theme - amCoder/amCoder/spinner/spinner2.png",
-                "Theme - amCoder/amCoder/spinner/spinner1.png"
-            ],
-            "loop": true,
-            "frame_time": 0.075
-        },
-        "layer0.opacity": 1,
-        "content_margin": [8, 8]
+        "layer0.opacity": 0,
+        "content_margin": [0, 0]
     },
     // Sidebar file icons
     {
