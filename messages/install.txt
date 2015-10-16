@@ -1,7 +1,7 @@
 Thanks for installing amCoder!
 
 
-How to activate
+How to Activate
 ===============
 
 Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (⌘+, on Mac).
@@ -9,32 +9,20 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 *Note: Don't forget to restart Sublime Text after activating the theme.*
 
 
-Example settings
-----------------
+Theme Settings
+--------------
 
 {
   "theme": "amCoder.sublime-theme"
 }
 
-Gray version:
+Color-Scheme
+------------
+
+amCoder looks best with this modified version of Monokai:
 
 {
-  "theme": "amCoder Gray.sublime-theme"
-}
-
-Extra Color-Scheme
-------------------
-
-You would like this low-profile version of monokai if you think the original monokai is too shiny:
-
-{
-  "color_scheme": "Packages/Theme - amCoder/Monokai Low-Profile.tmTheme"
-}
-
-Gray version:
-
-{
-  "color_scheme": "Packages/Theme - amCoder/Monokai Low-Profile Gray.tmTheme"
+  "color_scheme": "Packages/Theme - amCoder/amCoder.tmTheme"
 }
 
 
