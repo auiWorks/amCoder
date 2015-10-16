@@ -1,0 +1,37 @@
+amCoder has been updated!
+
+
+What's New
+==========
+
+!!!BREAK CHANGES!!!
+
+YOUR SUBLIME MAY LOOKS WIRED RIGHT NOW BUT PLEASE READ ON.
+
+The "amCoder Gray" theme, "Monokai Low-Profile" and "Monokai Low-Profile Gray" color-schemes have been removed.
+
+Instead, the "amCoder" theme and color-scheme have been rebuilt for better visibility.
+
+Try modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (⌘+, on Mac).
+
+*Note: Don't forget to restart Sublime Text after changing the theme.*
+
+
+Theme Settings
+--------------
+
+{
+  "theme": "amCoder.sublime-theme"
+}
+
+Color-Scheme
+------------
+
+amCoder looks best with this modified version of Monokai:
+
+{
+  "color_scheme": "Packages/Theme - amCoder/amCoder.tmTheme"
+}
+
+
+*Note: Don't forget to restart Sublime Text after changing the theme.*

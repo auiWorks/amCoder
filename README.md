@@ -9,10 +9,6 @@ Inherited from [Spacegray](https://github.com/kkga/spacegray).
 
 ![image](screenshots/amCoder.png)
 
-Gray version:
-
-![image](screenshots/amCoder-Gray.png)
-
 ***
 
 ### How to Install
@@ -39,7 +35,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 **Note: Don't forget to restart Sublime Text after activating the theme.**
 
-#### Settings for amCoder
+#### Theme Settings
 
 ```json
 {
@@ -47,28 +43,12 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 }
 ```
 
-Gray version:
+#### Color-Scheme
+
+amCoder looks best with this modified version of Monokai:
 
 ```json
 {
-  "theme": "amCoder Gray.sublime-theme"
-}
-```
-
-#### Extra Color-Scheme
-
-You would like this low-profile version of monokai if you think the original monokai is too shiny:
-
-```json
-{
-  "color_scheme": "Packages/Theme - amCoder/Monokai Low-Profile.tmTheme"
-}
-```
-
-Gray version:
-
-```json
-{
-  "color_scheme": "Packages/Theme - amCoder/Monokai Low-Profile Gray.tmTheme"
+  "color_scheme": "Packages/Theme - amCoder/amCoder.tmTheme"
 }
 ```
