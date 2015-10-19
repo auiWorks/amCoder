@@ -14,7 +14,7 @@
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#1D1A1A</string>
+                <string>#1C1C1C</string>
                 <key>caret</key>
                 <string>#CECECE</string>
                 <key>foreground</key>
@@ -52,7 +52,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#E3E084</string>
+                <string>#CCC47A</string>
             </dict>
         </dict>
         <dict>
@@ -61,7 +61,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#4CD97B</string>
+                <string>#9CCC3D</string>
             </dict>
         </dict>
         <dict>
