@@ -6,6 +6,8 @@
     <string>amCoder</string>
     <key>settings</key>
     <array>
+
+        <!-- Sublime -->
         <dict>
             <key>settings</key>
             <dict>
@@ -82,6 +84,8 @@
                 <string>#CCC47A</string>
             </dict>
         </dict>
+
+        <!-- Built-in -->
         <dict>
             <key>name</key>
             <string>Comment</string>
@@ -144,8 +148,6 @@
             <string>variable</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string></string>
                 <key>foreground</key>
                 <string></string>
             </dict>
@@ -218,8 +220,6 @@
             <string>entity.name.function</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string></string>
                 <key>foreground</key>
                 <string>#9CCC3D</string>
             </dict>
@@ -266,8 +266,6 @@
             <string>support.function</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string></string>
                 <key>foreground</key>
                 <string>#6CC7D9</string>
             </dict>
@@ -279,8 +277,6 @@
             <string>support.constant</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string></string>
                 <key>foreground</key>
                 <string>#6CC7D9</string>
             </dict>
@@ -305,8 +301,6 @@
             <string>support.other.variable</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string></string>
                 <key>foreground</key>
                 <string></string>
             </dict>
@@ -320,8 +314,6 @@
             <dict>
                 <key>background</key>
                 <string>#E52E71</string>
-                <key>fontStyle</key>
-                <string></string>
                 <key>foreground</key>
                 <string>#CECECE</string>
             </dict>
@@ -394,6 +386,214 @@
                 <string>#CCC47A</string>
             </dict>
         </dict>
+
+        <!-- Markup -->
+        <dict>
+            <key>name</key>
+            <string>Markup: raw inline</string>
+            <key>scope</key>
+            <string>text.html.markdown markup.raw.inline</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A082D9</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markup: italic</string>
+            <key>scope</key>
+            <string>markup.italic</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#CCC47A</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markup: bold</string>
+            <key>scope</key>
+            <string>markup.bold</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+                <key>foreground</key>
+                <string>#D9882B</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markup: underline</string>
+            <key>scope</key>
+            <string>markup.underline</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>underline</string>
+                <key>foreground</key>
+                <string>#6CC7D9</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markup: Quote</string>
+            <key>scope</key>
+            <string>markup.quote</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#6E6E6E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markup: Raw block</string>
+            <key>scope</key>
+            <string>markup.raw.block</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A082D9</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markup: table</string>
+            <key>scope</key>
+            <string>markup.table</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#6E6E6E</string>
+            </dict>
+        </dict>
+
+        <!-- Markdown -->
+        <dict>
+            <key>name</key>
+            <string>Markdown: plain</string>
+            <key>scope</key>
+            <string>text.html.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#CECECE</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown: linebreak</string>
+            <key>scope</key>
+            <string>text.html.markdown meta.dummy.line-break</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#6E6E6E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown: heading</string>
+            <key>scope</key>
+            <string>markdown.heading, markup.heading | markup.heading entity.name, markup.heading.markdown punctuation.definition.heading.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+                <key>foreground</key>
+                <string>#E52E71</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown: Blockquote</string>
+            <key>scope</key>
+            <string>markup.quote, punctuation.definition.blockquote.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#6E6E6E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown: Link</string>
+            <key>scope</key>
+            <string>string.other.link.title.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>underline</string>
+                <key>foreground</key>
+                <string>#6CC7D9</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown: List Items Punctuation</string>
+            <key>scope</key>
+            <string>punctuation.definition.list_item.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#6E6E6E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown: Raw Block fenced</string>
+            <key>scope</key>
+            <string>markup.raw.block.fenced.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A082D9</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown: Fenced Bode Block</string>
+            <key>scope</key>
+            <string>punctuation.definition.fenced.markdown, variable.language.fenced.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A082D9</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown: Fenced Language</string>
+            <key>scope</key>
+            <string>variable.language.fenced.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A082D9</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown: Separator</string>
+            <key>scope</key>
+            <string>meta.separator</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#242424</string>
+                <key>foreground</key>
+                <string>#6E6E6E</string>
+            </dict>
+        </dict>
+
     </array>
     <key>uuid</key>
     <string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
