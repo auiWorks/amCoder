@@ -21,21 +21,21 @@
                 <string>#404040</string>
 
                 <key>bracketContentsForeground</key>
-                <string>#20B9E3</string>
+                <string>#6CC7D9</string>
                 <key>bracketContentsOptions</key>
                 <string>stippled_underline</string>
                 <key>bracketsForeground</key>
-                <string>#FF4A6D</string>
+                <string>#E52E71</string>
                 <key>bracketsOptions</key>
                 <string>stippled_underline</string>
 
                 <key>tagsForeground</key>
-                <string>#ff0000</string>
+                <string>#E52E71</string>
                 <key>tagsOptions</key>
                 <string>stippled_underline</string>
 
                 <key>findHighlight</key>
-                <string>#E3E084</string>
+                <string>#CCC47A</string>
                 <key>findHighlightForeground</key>
                 <string>#1C1C1C</string>
 
@@ -59,9 +59,27 @@
                 <string>#404040</string>
 
                 <key>highlight</key>
-                <string>#E3E084</string>
+                <string>#CCC47A</string>
                 <key>highlightForeground</key>
                 <string>#1C1C1C</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>constant.numeric.line-number.find-in-files - match</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A082D9A0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>entity.name.filename.find-in-files</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#CCC47A</string>
             </dict>
         </dict>
         <dict>
@@ -83,7 +101,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#E3E084</string>
+                <string>#CCC47A</string>
             </dict>
         </dict>
         <dict>
@@ -94,7 +112,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#C182FF</string>
+                <string>#A082D9</string>
             </dict>
         </dict>
         <dict>
@@ -105,7 +123,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#C182FF</string>
+                <string>#A082D9</string>
             </dict>
         </dict>
         <dict>
@@ -116,7 +134,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#C182FF</string>
+                <string>#A082D9</string>
             </dict>
         </dict>
         <dict>
@@ -140,7 +158,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FF4A6D</string>
+                <string>#E52E71</string>
             </dict>
         </dict>
         <dict>
@@ -151,7 +169,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FF4A6D</string>
+                <string>#E52E71</string>
             </dict>
         </dict>
         <dict>
@@ -162,7 +180,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#20B9E3</string>
+                <string>#6CC7D9</string>
             </dict>
         </dict>
         <dict>
@@ -173,7 +191,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#4CD97B</string>
+                <string>#9CCC3D</string>
             </dict>
         </dict>
         <dict>
@@ -184,7 +202,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#4CD97B</string>
+                <string>#9CCC3D</string>
             </dict>
         </dict>
         <dict>
@@ -197,7 +215,7 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#4CD97B</string>
+                <string>#9CCC3D</string>
             </dict>
         </dict>
         <dict>
@@ -208,7 +226,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#E3E084</string>
+                <string>#D9882B</string>
             </dict>
         </dict>
         <dict>
@@ -219,7 +237,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FF4A6D</string>
+                <string>#E52E71</string>
             </dict>
         </dict>
         <dict>
@@ -230,7 +248,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#4CD97B</string>
+                <string>#9CCC3D</string>
             </dict>
         </dict>
         <dict>
@@ -243,7 +261,7 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#20B9E3</string>
+                <string>#6CC7D9</string>
             </dict>
         </dict>
         <dict>
@@ -256,7 +274,7 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#20B9E3</string>
+                <string>#6CC7D9</string>
             </dict>
         </dict>
         <dict>
@@ -267,7 +285,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#20B9E3</string>
+                <string>#6CC7D9</string>
             </dict>
         </dict>
         <dict>
@@ -291,7 +309,7 @@
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#FF4A6D</string>
+                <string>#E52E71</string>
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
@@ -306,7 +324,7 @@
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#C182FF</string>
+                <string>#A082D9</string>
                 <key>foreground</key>
                 <string>#CECECE</string>
             </dict>
