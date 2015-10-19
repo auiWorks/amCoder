@@ -849,13 +849,14 @@
     {
         "class": "icon_button_control",
         "layer1.opacity": 0,
+        "layer0.tint": [36, 36, 36], // dark-2
+        "layer0.opacity": 1,
         "content_margin": 7
     },
     {
         "class": "icon_button_control",
         "attributes": ["selected"],
-        "layer0.tint": [28, 28, 28], // dark-1
-        "layer0.opacity": 1
+        "layer0.tint": [28, 28, 28] // dark-1
     },
     // Button group left
     {
