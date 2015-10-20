@@ -7,7 +7,12 @@ Inherited from [Spacegray](https://github.com/kkga/spacegray).
 
 ### Previews
 
+Default version:
+
 ![image](screenshots/amCoder.png)
+
+Classic version:
+
 ![image](screenshots/amCoder Classic.png)
 
 ***
