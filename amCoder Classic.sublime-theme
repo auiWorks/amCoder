@@ -8,8 +8,8 @@
 // [125, 130, 109] // light-2
 // [194, 197, 186] // light-1
 // [218, 220, 213] // light-0
-// [255, 74, 109]  // red
-// [227, 224, 132] // yellow
+// [229, 46, 113]  // red
+// [204, 196, 122] // yellow
 //
 
 //
@@ -109,7 +109,7 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control"}],
         "attributes": ["hover"],
-        "layer0.tint": [255, 74, 109], // red
+        "layer0.tint": [229, 46, 113], // red
         "layer0.opacity": 1
     },
     // Tab dirty button
@@ -125,7 +125,7 @@
         "parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
         "layer0.texture": "Theme - amCoder/amCoder/close.png",
         "attributes": ["hover"],
-        "layer0.tint": [255, 74, 109], // red
+        "layer0.tint": [229, 46, 113], // red
         "layer0.opacity": 1
     },
     // Tab highlight button
@@ -133,7 +133,7 @@
         "class": "tab_close_button",
         "settings": ["highlight_modified_tabs"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "layer0.tint": [227, 224, 132], // yellow
+        "layer0.tint": [204, 196, 122], // yellow
         "layer0.opacity": 1
     },
     {
@@ -142,7 +142,7 @@
         "parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
         "layer0.texture": "Theme - amCoder/amCoder/close.png",
         "attributes": ["hover"],
-        "layer0.tint": [255, 74, 109], // red
+        "layer0.tint": [229, 46, 113], // red
         "layer0.opacity": 1
     },
 
@@ -603,7 +603,7 @@
         "class": "close_button",
         "attributes": ["dirty"],
         "layer0.texture": "Theme - amCoder/amCoder/circle.png",
-        "layer0.tint": [227, 224, 132], // yellow
+        "layer0.tint": [204, 196, 122], // yellow
         "layer0.opacity": 1
     },
     // Sidebar file close hover
@@ -611,7 +611,7 @@
         "class": "close_button",
         "attributes": ["hover"],
         "layer0.texture": "Theme - amCoder/amCoder/close.png",
-        "layer0.tint": [255, 74, 109] // red
+        "layer0.tint": [229, 46, 113] // red
     },
 
 //
