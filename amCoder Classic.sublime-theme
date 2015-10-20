@@ -2,12 +2,12 @@
 
 //
 // Palettes
-// [20, 20, 20]    // dark-0
-// [28, 28, 28]    // dark-1
-// [36, 36, 36]    // dark-2
-// [110, 110, 110] // light-2
-// [180, 180, 180] // light-1
-// [206, 206, 206] // light-0
+// [32, 33, 28]    // dark-0
+// [39, 40, 34]    // dark-1
+// [48, 50, 42]    // dark-2
+// [125, 130, 109] // light-2
+// [194, 197, 186] // light-1
+// [218, 220, 213] // light-0
 // [255, 74, 109]  // red
 // [227, 224, 132] // yellow
 //
@@ -20,7 +20,7 @@
     {
         "class": "tabset_control",
         "layer0.texture": "",
-        "layer0.tint": [36, 36, 36], // dark-2
+        "layer0.tint": [48, 50, 42], // dark-2
         "layer0.inner_margin": 0,
         "layer0.opacity": 1,
         "content_margin": 0,
@@ -47,7 +47,7 @@
         "max_margin_trim": 0,
         "hit_test_level": 0,
         "layer0.texture": "",
-        "layer0.tint": [36, 36, 36], // dark-2
+        "layer0.tint": [48, 50, 42], // dark-2
         "layer0.inner_margin": [5, 5],
         "layer0.opacity": 1
     },
@@ -67,7 +67,7 @@
         "class": "tab_control",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [28, 28, 28] // dark-1
+        "layer0.tint": [39, 40, 34] // dark-1
     },
     // Tab dirty state (close button hidden)
     {
@@ -86,7 +86,7 @@
         "class": "tab_close_button",
         "content_margin": [8, 8],
         "layer0.texture": "Theme - amCoder/amCoder/close.png",
-        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.tint": [125, 130, 109], // light-2
         "layer0.opacity": 0,
         "layer0.inner_margin": 0
     },
@@ -117,7 +117,7 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "Theme - amCoder/amCoder/circle.png",
-        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.tint": [125, 130, 109], // light-2
         "layer0.opacity": 1
     },
     {
@@ -153,17 +153,17 @@
     {
         "class": "tab_label",
         "fade": true,
-        "fg": [110, 110, 110] // light-2
+        "fg": [125, 130, 109] // light-2
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "fg": [180, 180, 180] // light-1
+        "fg": [194, 197, 186] // light-1
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "fg": [206, 206, 206] // light-0
+        "fg": [218, 220, 213] // light-0
     },
     {
         "class": "tab_label",
@@ -180,42 +180,42 @@
         "class": "show_tabs_dropdown_button",
         "content_margin": [8, 8],
         "layer0.texture": "Theme - amCoder/amCoder/tab-dropdown.png",
-        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.tint": [125, 130, 109], // light-2
         "layer0.inner_margin": 0,
         "layer0.opacity": 1
     },
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
-        "layer0.tint": [180, 180, 180] // light-1
+        "layer0.tint": [194, 197, 186] // light-1
     },
     // Tab scroll left
     {
         "class": "scroll_tabs_left_button",
         "content_margin": [8, 8],
         "layer0.texture": "Theme - amCoder/amCoder/tab-scroll-left.png",
-        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.tint": [125, 130, 109], // light-2
         "layer0.inner_margin": 0,
         "layer0.opacity": 1
     },
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
-        "layer0.tint": [180, 180, 180] // light-1
+        "layer0.tint": [194, 197, 186] // light-1
     },
     // Tab scroll right
     {
         "class": "scroll_tabs_right_button",
         "content_margin": [8, 8],
         "layer0.texture": "Theme - amCoder/amCoder/tab-scroll-right.png",
-        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.tint": [125, 130, 109], // light-2
         "layer0.inner_margin": 0,
         "layer0.opacity": 1
     },
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
-        "layer0.tint": [180, 180, 180] // light-1
+        "layer0.tint": [194, 197, 186] // light-1
     },
 
 //
@@ -225,7 +225,7 @@
     {
         "class": "fold_button_control",
         "layer0.texture": "Theme - amCoder/amCoder/folder-closed.png",
-        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.tint": [125, 130, 109], // light-2
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         "content_margin": [8, 8]
@@ -233,7 +233,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["hover"],
-        "layer0.tint": [180, 180, 180] // light-1
+        "layer0.tint": [194, 197, 186] // light-1
     },
     {
         "class": "fold_button_control",
@@ -249,7 +249,7 @@
     {
         "class": "scroll_bar_control",
         "layer0.texture": "",
-        "layer0.tint": [20, 20, 20], // dark-0
+        "layer0.tint": [32, 33, 28], // dark-0
         "layer0.opacity": 1,
         "layer0.inner_margin": [0, 0],
         "blur": true
@@ -259,7 +259,7 @@
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
         "layer0.texture": "",
-        "layer0.tint": [20, 20, 20], // dark-0
+        "layer0.tint": [32, 33, 28], // dark-0
         "layer0.inner_margin": [0, 0],
         "blur": true
     },
@@ -267,7 +267,7 @@
     {
         "class": "scroll_corner_control",
         "layer0.texture": "",
-        "layer0.tint": [20, 20, 20], // dark-0
+        "layer0.tint": [32, 33, 28], // dark-0
         "layer0.inner_margin": [0, 0],
         "layer0.opacity": 1
     },
@@ -275,7 +275,7 @@
     {
         "class": "puck_control",
         "layer0.texture": "",
-        "layer0.tint": [36, 36, 36], // dark-2
+        "layer0.tint": [48, 50, 42], // dark-2
         "layer0.opacity": 1,
         "layer0.inner_margin": [0, 0],
         "content_margin": [3, 12],
@@ -285,7 +285,7 @@
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
-        "layer0.tint": [36, 36, 36], // dark-2
+        "layer0.tint": [48, 50, 42], // dark-2
         "layer0.inner_margin": [0, 0],
         "content_margin": [12, 3],
         "blur": false
@@ -310,7 +310,7 @@
     {
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.tint": [28, 28, 28], // dark-1
+        "layer0.tint": [39, 40, 34], // dark-1
         "layer0.inner_margin": [0, 5],
         "layer0.opacity": 0,
         "blur": true
@@ -348,7 +348,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
-        "layer0.tint": [110, 110, 110] // light-2
+        "layer0.tint": [125, 130, 109] // light-2
 
     },
     // Overlay light horizontal puck (for dark content)
@@ -356,7 +356,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal", "dark"],
-        "layer0.tint": [110, 110, 110] // light-2
+        "layer0.tint": [125, 130, 109] // light-2
     },
 
 //
@@ -365,7 +365,7 @@
 
     {
         "class": "sheet_container_control",
-        "layer0.tint": [28, 28, 28], // dark-1
+        "layer0.tint": [39, 40, 34], // dark-1
         "layer0.opacity": 1
     },
 
@@ -376,7 +376,7 @@
     {
         "class": "grid_layout_control",
         "border_size": 1,
-        "border_color": [36, 36, 36] // dark-2
+        "border_color": [48, 50, 42] // dark-2
     },
 
 //
@@ -408,7 +408,7 @@
 
     {
         "class": "dialog",
-        "layer0.tint": [36, 36, 36], // dark-2
+        "layer0.tint": [48, 50, 42], // dark-2
         "layer0.opacity": 1
     },
 
@@ -418,12 +418,12 @@
 
     {
         "class": "progress_bar_control",
-        "layer0.tint": [36, 36, 36], // dark-2
+        "layer0.tint": [48, 50, 42], // dark-2
         "layer0.opacity": 1
     },
     {
         "class": "progress_gauge_control",
-        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.tint": [125, 130, 109], // light-2
         "layer0.opacity": 1,
         "content_margin": [0, 6]
     },
@@ -435,7 +435,7 @@
     // General labels
     {
         "class": "label_control",
-        "color": [110, 110, 110] // light-2
+        "color": [125, 130, 109] // light-2
     },
     // Text field labels
     {
@@ -447,7 +447,7 @@
         "class": "label_control",
         "parents": [{"class": "button_control"}],
         "font.bold": true,
-        "color": [206, 206, 206] // light-0
+        "color": [218, 220, 213] // light-0
     },
 
 //
@@ -457,7 +457,7 @@
     // Tooltip container
     {
         "class": "tool_tip_control",
-        "layer0.tint": [20, 20, 20], // dark-0
+        "layer0.tint": [32, 33, 28], // dark-0
         "layer0.inner_margin": [1, 1],
         "layer0.opacity": 1,
         "content_margin": [8, 6]
@@ -465,7 +465,7 @@
     // Tooltip content
     {
         "class": "tool_tip_label_control",
-        "color": [206, 206, 206] // light-0
+        "color": [218, 220, 213] // light-0
     },
 
 //
@@ -476,7 +476,7 @@
     {
         "class": "status_bar",
         "layer0.texture": "",
-        "layer0.tint": [36, 36, 36], // dark-2
+        "layer0.tint": [48, 50, 42], // dark-2
         "layer0.opacity": 1,
         "layer0.inner_margin": [2, 2],
         "content_margin": [8, 4]
@@ -490,7 +490,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [110, 110, 110] // light-2
+        "color": [125, 130, 109] // light-2
     },
 
 //
@@ -501,7 +501,7 @@
     {
         "class": "sidebar_container",
         "layer0.opacity": 1,
-        "layer0.tint": [20, 20, 20], // dark-0
+        "layer0.tint": [32, 33, 28], // dark-0
         "layer0.inner_margin": [1, 1, 2, 1],
         "content_margin": [0, 0, 0, 0]
     },
@@ -517,7 +517,7 @@
     // Sidebar rows
     {
         "class": "tree_row",
-        "layer0.tint": [36, 36, 36], // dark-2
+        "layer0.tint": [48, 50, 42], // dark-2
         "layer0.opacity": 0,
         "layer0.inner_margin": [1, 1]
     },
@@ -530,7 +530,7 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [180, 180, 180], // light-1
+        "color": [194, 197, 186], // light-1
         "font.bold": true
     },
     // Sidebar heading selected
@@ -541,7 +541,7 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [110, 110, 110], // light-2
+        "color": [125, 130, 109], // light-2
         "font.bold": false,
         "font.italic": false
     },
@@ -549,12 +549,12 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [110, 110, 110] // light-2
+        "color": [125, 130, 109] // light-2
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "color": [180, 180, 180] // light-1
+        "color": [194, 197, 186] // light-1
     },
     {
         "class": "sidebar_label",
@@ -566,7 +566,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [206, 206, 206] // light-0
+        "color": [218, 220, 213] // light-0
     },
     // Sidebar entry transient
     {
@@ -583,7 +583,7 @@
     {
         "class": "close_button",
         "layer0.texture": "Theme - amCoder/amCoder/close.png",
-        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.tint": [125, 130, 109], // light-2
         "layer0.opacity": 0,
         "layer0.inner_margin": 0,
         "content_margin": [8, 8]
@@ -623,14 +623,14 @@
         "class": "disclosure_button_control",
         "content_margin": [8, 8],
         "layer0.texture": "Theme - amCoder/amCoder/folder-closed.png",
-        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.tint": [125, 130, 109], // light-2
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.tint": [180, 180, 180] // light-1
+        "layer0.tint": [194, 197, 186] // light-1
     },
     {
         "class": "disclosure_button_control",
@@ -663,7 +663,7 @@
     {
         "class": "icon_file_type",
         // layer0.texture is filled in by code with the relevant icon name
-        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.tint": [125, 130, 109], // light-2
         "layer0.opacity": 1,
         "content_margin": [8, 8]
     },
@@ -678,7 +678,7 @@
         "content_margin": [4, 8],
         "min_size": [64, 0],
         "layer0.texture": "",
-        "layer0.tint": [36, 36, 36], // dark-2
+        "layer0.tint": [48, 50, 42], // dark-2
         "layer0.opacity": 1,
         "layer0.inner_margin": [8, 8]
     },
@@ -686,13 +686,13 @@
     {
         "class": "button_control",
         "attributes": ["hover"],
-        "layer0.tint": [28, 28, 28] // dark-1
+        "layer0.tint": [39, 40, 34] // dark-1
     },
     // Pressed button state
     {
         "class": "button_control",
         "attributes": ["pressed"],
-        "layer0.tint": [20, 20, 20] // dark-0
+        "layer0.tint": [32, 33, 28] // dark-0
     },
 
 //
@@ -703,7 +703,7 @@
     {
         "class": "text_line_control",
         "layer0.texture": "",
-        "layer0.tint": [28, 28, 28], // dark-1
+        "layer0.tint": [39, 40, 34], // dark-1
         "layer0.opacity": 1,
         "content_margin": 6
     },
@@ -712,14 +712,14 @@
         "class": "dropdown_button_control",
         "content_margin": [8, 8],
         "layer0.texture": "Theme - amCoder/amCoder/tab-dropdown.png",
-        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.tint": [125, 130, 109], // light-2
         "layer0.opacity": 1,
         "layer0.inner_margin": [4, 4]
     },
     {
         "class": "dropdown_button_control",
         "attributes": ["hover"],
-        "layer0.tint": [180, 180, 180] // light-1
+        "layer0.tint": [194, 197, 186] // light-1
     },
 
 //
@@ -730,7 +730,7 @@
     {
         "class": "panel_control",
         "layer0.texture": "",
-        "layer0.tint": [36, 36, 36], // dark-2
+        "layer0.tint": [48, 50, 42], // dark-2
         "layer0.inner_margin": [0, 0],
         "layer0.opacity": 1,
         "content_margin": 0
@@ -740,7 +740,7 @@
         "class": "overlay_control",
         "layer0.opacity": 1,
         "layer1.texture": "",
-        "layer1.tint": [36, 36, 36], // dark-2
+        "layer1.tint": [48, 50, 42], // dark-2
         "layer1.inner_margin": [0, 0, 0, 0],
         "layer1.opacity": 1,
         "content_margin": 0
@@ -753,14 +753,14 @@
     {
         "class": "quick_panel",
         "row_padding": 8,
-        "layer0.tint": [36, 36, 36], // dark-2
+        "layer0.tint": [48, 50, 42], // dark-2
         "layer0.opacity": 1,
         "dark_content": true
     },
     {
         "class": "quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [36, 36, 36], // dark-2
+        "layer0.tint": [48, 50, 42], // dark-2
         "layer0.inner_margin": 8,
         "layer0.opacity": 1
     },
@@ -768,26 +768,26 @@
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [20, 20, 20] // dark-0
+        "layer0.tint": [32, 33, 28] // dark-0
     },
     {
         "class": "quick_panel_label",
-        "fg": [110, 110, 110], // light-2
-        "match_fg": [180, 180, 180], // light-1
-        "selected_fg": [110, 110, 110], // light-2
-        "selected_match_fg": [206, 206, 206] // light-0
+        "fg": [125, 130, 109], // light-2
+        "match_fg": [194, 197, 186], // light-1
+        "selected_fg": [125, 130, 109], // light-2
+        "selected_match_fg": [218, 220, 213] // light-0
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [110, 110, 110], // light-2
-        "match_fg": [180, 180, 180], // light-1
-        "selected_fg": [110, 110, 110], // light-2
-        "selected_match_fg": [180, 180, 180] // light-1
+        "fg": [125, 130, 109], // light-2
+        "match_fg": [194, 197, 186], // light-1
+        "selected_fg": [125, 130, 109], // light-2
+        "selected_match_fg": [194, 197, 186] // light-1
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [110, 110, 110], // light-2
-        "selected_fg": [110, 110, 110] // light-2
+        "fg": [125, 130, 109], // light-2
+        "selected_fg": [125, 130, 109] // light-2
     },
 
 //
@@ -797,14 +797,14 @@
     {
         "class": "mini_quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [36, 36, 36], // dark-2
+        "layer0.tint": [48, 50, 42], // dark-2
         "layer0.opacity": 1
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [20, 20, 20] // dark-0
+        "layer0.tint": [32, 33, 28] // dark-0
     },
 
 //
@@ -814,7 +814,7 @@
     {
         "class": "popup_control",
         "content_margin": [0, 0],
-        "layer0.tint": [36, 36, 36], // dark-2
+        "layer0.tint": [48, 50, 42], // dark-2
         "layer0.opacity": 1
     },
     {
@@ -823,15 +823,15 @@
     },
     {
         "class": "auto_complete_label",
-        "fg": [110, 110, 110], // light-2
-        "match_fg": [180, 180, 180], // light-1
-        "selected_fg": [110, 110, 110], // light-2
-        "selected_match_fg": [180, 180, 180] // light-1
+        "fg": [125, 130, 109], // light-2
+        "match_fg": [194, 197, 186], // light-1
+        "selected_fg": [125, 130, 109], // light-2
+        "selected_match_fg": [194, 197, 186] // light-1
     },
     {
         "class": "table_row",
         "layer0.texture": "",
-        "layer0.tint": [20, 20, 20], // dark-0
+        "layer0.tint": [32, 33, 28], // dark-0
         "layer0.opacity": 0,
         "layer0.inner_margin": [3, 1]
     },
@@ -849,14 +849,14 @@
     {
         "class": "icon_button_control",
         "layer1.opacity": 0,
-        "layer0.tint": [36, 36, 36], // dark-2
+        "layer0.tint": [48, 50, 42], // dark-2
         "layer0.opacity": 1,
         "content_margin": 7
     },
     {
         "class": "icon_button_control",
         "attributes": ["selected"],
-        "layer0.tint": [28, 28, 28] // dark-1
+        "layer0.tint": [39, 40, 34] // dark-1
     },
     // Button group left
     {
@@ -907,40 +907,40 @@
     {
         "class": "icon_regex",
         "layer0.texture": "Theme - amCoder/amCoder/regex.png",
-        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.tint": [125, 130, 109], // light-2
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [206, 206, 206] // light-0
+        "layer0.tint": [218, 220, 213] // light-0
     },
     // Case sensitive search button
     {
         "class": "icon_case",
         "layer0.texture": "Theme - amCoder/amCoder/casesens.png",
-        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.tint": [125, 130, 109], // light-2
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [206, 206, 206] // light-0
+        "layer0.tint": [218, 220, 213] // light-0
     },
     // Match whole word search button
     {
         "class": "icon_whole_word",
         "layer0.texture": "Theme - amCoder/amCoder/wholeword.png",
-        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.tint": [125, 130, 109], // light-2
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [206, 206, 206] // light-0
+        "layer0.tint": [218, 220, 213] // light-0
     },
 
 //
@@ -951,27 +951,27 @@
     {
         "class": "icon_context",
         "layer0.texture": "Theme - amCoder/amCoder/context.png",
-        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.tint": [125, 130, 109], // light-2
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [206, 206, 206] // light-0
+        "layer0.tint": [218, 220, 213] // light-0
     },
     // Use search buffer
     {
         "class": "icon_use_buffer",
         "layer0.texture": "Theme - amCoder/amCoder/buffer.png",
-        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.tint": [125, 130, 109], // light-2
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [206, 206, 206] // light-0
+        "layer0.tint": [218, 220, 213] // light-0
     },
 
 //
@@ -982,40 +982,40 @@
     {
         "class": "icon_reverse",
         "layer0.texture": "Theme - amCoder/amCoder/reverse.png",
-        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.tint": [125, 130, 109], // light-2
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [206, 206, 206] // light-0
+        "layer0.tint": [218, 220, 213] // light-0
     },
     // Search wrap button
     {
         "class": "icon_wrap",
         "layer0.texture": "Theme - amCoder/amCoder/wrap.png",
-        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.tint": [125, 130, 109], // light-2
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [206, 206, 206] // light-0
+        "layer0.tint": [218, 220, 213] // light-0
     },
     // Search in selection button
     {
         "class": "icon_in_selection",
         "layer0.texture": "Theme - amCoder/amCoder/selection.png",
-        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.tint": [125, 130, 109], // light-2
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [206, 206, 206] // light-0
+        "layer0.tint": [218, 220, 213] // light-0
     },
 
 //
@@ -1026,14 +1026,14 @@
     {
         "class": "icon_preserve_case",
         "layer0.texture": "Theme - amCoder/amCoder/lock.png",
-        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.tint": [125, 130, 109], // light-2
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [206, 206, 206] // light-0
+        "layer0.tint": [218, 220, 213] // light-0
     },
 
 //
@@ -1044,14 +1044,14 @@
     {
         "class": "icon_highlight",
         "layer0.texture": "Theme - amCoder/amCoder/highlight.png",
-        "layer0.tint": [110, 110, 110], // light-2
+        "layer0.tint": [125, 130, 109], // light-2
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [206, 206, 206] // light-0
+        "layer0.tint": [218, 220, 213] // light-0
     }
 
 ]
