@@ -8,6 +8,7 @@ Inherited from [Spacegray](https://github.com/kkga/spacegray).
 ### Previews
 
 ![image](screenshots/amCoder.png)
+![image](screenshots/amCoder Classic.png)
 
 ***
 
@@ -37,18 +38,38 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 #### Theme Settings
 
+Default version:
+
 ```json
 {
   "theme": "amCoder.sublime-theme"
 }
 ```
 
+Classic version:
+
+```json
+{
+  "theme": "amCoder Classic.sublime-theme"
+}
+```
+
 #### Color-Scheme
 
-amCoder looks best with this modified version of Monokai:
+amCoder looks best with these modified versions of Monokai:
+
+Default version:
 
 ```json
 {
   "color_scheme": "Packages/Theme - amCoder/amCoder.tmTheme"
+}
+```
+
+Classic version:
+
+```json
+{
+  "color_scheme": "Packages/Theme - amCoder/amCoder Classic.tmTheme"
 }
 ```
