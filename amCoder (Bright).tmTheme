@@ -47,11 +47,15 @@
                 <string>#6E6E6E</string>
 
                 <key>selection</key>
-                <string>#404040</string>
+                <string>#CCC47A</string>
                 <key>selectionBorder</key>
-                <string>#6E6E6E</string>
+                <string>#CCC47A</string>
+                <key>selectionForeground</key>
+                <string>#1C1C1C</string>
                 <key>inactiveSelection</key>
-                <string>#242424</string>
+                <string>#CECECE</string>
+                <key>inactiveSelectionForeground</key>
+                <string>#1C1C1C</string>
 
                 <key>guide</key>
                 <string>#404040</string>

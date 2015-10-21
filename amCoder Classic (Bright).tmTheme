@@ -47,11 +47,15 @@
                 <string>#7D826D</string>
 
                 <key>selection</key>
-                <string>#4D5044</string>
+                <string>#CCC47A</string>
                 <key>selectionBorder</key>
-                <string>#7D826D</string>
+                <string>#CCC47A</string>
+                <key>selectionForeground</key>
+                <string>#272822</string>
                 <key>inactiveSelection</key>
-                <string>#30322A</string>
+                <string>#DADCD5</string>
+                <key>inactiveSelectionForeground</key>
+                <string>#272822</string>
 
                 <key>guide</key>
                 <string>#4D5044</string>
