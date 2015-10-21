@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>name</key>
-    <string>amCoder</string>
+    <string>amCoder Classic</string>
     <key>settings</key>
     <array>
 
@@ -596,7 +596,7 @@
 
     </array>
     <key>uuid</key>
-    <string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
+    <string>FDCC584F-9029-4FC6-98AB-94075EB99A4D</string>
     <key>colorSpaceName</key>
     <string>sRGB</string>
     <key>semanticClass</key>
