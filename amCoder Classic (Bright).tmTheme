@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>name</key>
-    <string>amCoder</string>
+    <string>amCoder Classic (Bright)</string>
     <key>settings</key>
     <array>
 
@@ -12,15 +12,15 @@
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#1C1C1C</string>
+                <string>#272822</string>
                 <key>caret</key>
-                <string>#CECECE</string>
+                <string>#DADCD5</string>
                 <key>foreground</key>
-                <string>#CECECE</string>
+                <string>#DADCD5</string>
                 <key>invisibles</key>
-                <string>#6E6E6E</string>
+                <string>#7D826D</string>
                 <key>lineHighlight</key>
-                <string>#404040</string>
+                <string>#4D5044</string>
 
                 <key>bracketContentsForeground</key>
                 <string>#6CC7D9</string>
@@ -39,31 +39,35 @@
                 <key>findHighlight</key>
                 <string>#CCC47A</string>
                 <key>findHighlightForeground</key>
-                <string>#1C1C1C</string>
+                <string>#272822</string>
 
                 <key>gutter</key>
-                <string>#1C1C1C</string>
+                <string>#272822</string>
                 <key>gutterForeground</key>
-                <string>#6E6E6E</string>
+                <string>#7D826D</string>
 
                 <key>selection</key>
-                <string>#404040</string>
+                <string>#CCC47A</string>
                 <key>selectionBorder</key>
-                <string>#6E6E6E</string>
+                <string>#CCC47A</string>
+                <key>selectionForeground</key>
+                <string>#272822</string>
                 <key>inactiveSelection</key>
-                <string>#242424</string>
+                <string>#DADCD5</string>
+                <key>inactiveSelectionForeground</key>
+                <string>#272822</string>
 
                 <key>guide</key>
-                <string>#404040</string>
+                <string>#4D5044</string>
                 <key>activeGuide</key>
-                <string>#6E6E6E</string>
+                <string>#7D826D</string>
                 <key>stackGuide</key>
-                <string>#404040</string>
+                <string>#4D5044</string>
 
                 <key>highlight</key>
                 <string>#CCC47A</string>
                 <key>highlightForeground</key>
-                <string>#1C1C1C</string>
+                <string>#272822</string>
             </dict>
         </dict>
         <dict>
@@ -94,7 +98,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#6E6E6E</string>
+                <string>#7D826D</string>
             </dict>
         </dict>
         <dict>
@@ -315,7 +319,7 @@
                 <key>background</key>
                 <string>#E52E71</string>
                 <key>foreground</key>
-                <string>#CECECE</string>
+                <string>#DADCD5</string>
             </dict>
         </dict>
         <dict>
@@ -328,7 +332,7 @@
                 <key>background</key>
                 <string>#A082D9</string>
                 <key>foreground</key>
-                <string>#CECECE</string>
+                <string>#DADCD5</string>
             </dict>
         </dict>
         <dict>
@@ -350,7 +354,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#6E6E6E</string>
+                <string>#7D826D</string>
             </dict>
         </dict>
         <dict>
@@ -448,7 +452,7 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#6E6E6E</string>
+                <string>#7D826D</string>
             </dict>
         </dict>
         <dict>
@@ -470,7 +474,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#6E6E6E</string>
+                <string>#7D826D</string>
             </dict>
         </dict>
 
@@ -483,7 +487,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#CECECE</string>
+                <string>#DADCD5</string>
             </dict>
         </dict>
         <dict>
@@ -494,7 +498,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#6E6E6E</string>
+                <string>#7D826D</string>
             </dict>
         </dict>
         <dict>
@@ -520,7 +524,7 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#6E6E6E</string>
+                <string>#7D826D</string>
             </dict>
         </dict>
         <dict>
@@ -544,7 +548,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#6E6E6E</string>
+                <string>#7D826D</string>
             </dict>
         </dict>
         <dict>
@@ -588,15 +592,15 @@
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#242424</string>
+                <string>#30322A</string>
                 <key>foreground</key>
-                <string>#6E6E6E</string>
+                <string>#7D826D</string>
             </dict>
         </dict>
 
     </array>
     <key>uuid</key>
-    <string>9EC2F669-2917-4C31-AAF1-A62E64137320</string>
+    <string>32653DCB-3DD8-46DD-8242-E0708F47BF8E</string>
     <key>colorSpaceName</key>
     <string>sRGB</string>
     <key>semanticClass</key>

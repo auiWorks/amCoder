@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>name</key>
-    <string>amCoder</string>
+    <string>amCoder (Bright)</string>
     <key>settings</key>
     <array>
 
@@ -47,11 +47,15 @@
                 <string>#6E6E6E</string>
 
                 <key>selection</key>
-                <string>#404040</string>
+                <string>#CCC47A</string>
                 <key>selectionBorder</key>
-                <string>#6E6E6E</string>
+                <string>#CCC47A</string>
+                <key>selectionForeground</key>
+                <string>#1C1C1C</string>
                 <key>inactiveSelection</key>
-                <string>#242424</string>
+                <string>#CECECE</string>
+                <key>inactiveSelectionForeground</key>
+                <string>#1C1C1C</string>
 
                 <key>guide</key>
                 <string>#404040</string>
@@ -596,7 +600,7 @@
 
     </array>
     <key>uuid</key>
-    <string>9EC2F669-2917-4C31-AAF1-A62E64137320</string>
+    <string>8FDBC15C-3C53-4E9E-9213-7AC5D0103AB8</string>
     <key>colorSpaceName</key>
     <string>sRGB</string>
     <key>semanticClass</key>
