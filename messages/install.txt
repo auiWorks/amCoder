@@ -41,6 +41,14 @@ Default version:
 }
 ```
 
+Default (Bright) version:
+
+```json
+{
+  "color_scheme": "Packages/Theme - amCoder/amCoder (Bright).tmTheme"
+}
+```
+
 Classic version:
 
 ```json
@@ -49,5 +57,12 @@ Classic version:
 }
 ```
 
+Classic (Bright) version:
+
+```json
+{
+  "color_scheme": "Packages/Theme - amCoder/amCoder Classic (Bright).tmTheme"
+}
+```
 
 *Note: Don't forget to restart Sublime Text after activating the theme.*

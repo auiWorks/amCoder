@@ -71,10 +71,26 @@ Default version:
 }
 ```
 
+Default (Bright) version:
+
+```json
+{
+  "color_scheme": "Packages/Theme - amCoder/amCoder (Bright).tmTheme"
+}
+```
+
 Classic version:
 
 ```json
 {
   "color_scheme": "Packages/Theme - amCoder/amCoder Classic.tmTheme"
+}
+```
+
+Classic (Bright) version:
+
+```json
+{
+  "color_scheme": "Packages/Theme - amCoder/amCoder Classic (Bright).tmTheme"
 }
 ```
