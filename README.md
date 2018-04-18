@@ -13,7 +13,7 @@ Default version:
 
 Classic version:
 
-![image](screenshots/amCoder Classic.png)
+![image](screenshots/amCoder%20Classic.png)
 
 ***
 
